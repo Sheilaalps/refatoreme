@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+body {
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #f4f7f6;
+    background: linear-gradient(135deg, #264660 0%, #274a67 50%, #9da2a4 100%);
+}

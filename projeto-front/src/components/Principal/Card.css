@@ -1,0 +1,25 @@
+.card {
+  /* Fundo de vidro */
+  background: rgba(255, 255, 255, 0.2);
+  
+  /* Efeito de desfoque (O "Liquid" do glass) */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  /* Borda sutil e arredondada */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  
+  /* Sombras para dar profundidade */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  
+  /* Espaçamento interno */
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Efeito de leve zoom ao passar o mouse */
+.card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.3);
+}
